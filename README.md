@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Data preparation
 In DAR-MVSNet, we mainly use [DTU](https://roboimagedata.compute.dtu.dk/) for training and validation, [BlendedMVS](https://github.com/YoYo000/BlendedMVS/) for finetuning, and [Tanks and Temples](https://www.tanksandtemples.org/) for final testing. You can prepare the corresponding data by following the instructions below.
 
-### ✔  DTU
+### DTU
 For DTU training set, you can download the preprocessed [DTU training data](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
  and [Depths_raw](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
  (both from [Original MVSNet](https://github.com/YoYo000/MVSNet)), and unzip them to construct a dataset folder like:
@@ -119,7 +119,7 @@ We also upload our final point cloud results to [here](https://drive.google.com/
 In addition, the files we obtained during the Matlab evaluation can be downloaded [here](https://drive.google.com/drive/folders/1r3rMIZNbTLrdWI-bAgJkCO570GS79cQj?usp=sharing)
 
 
-### ✔ Testing on Tanks and Temples
+###  Testing on Tanks and Temples
 We recommend using the finetuned models (``model_bld.ckpt``) to test on Tanks and Temples benchmark.
 
 Similarly, set the configuration in ``scripts/test_tnt.sh``:
