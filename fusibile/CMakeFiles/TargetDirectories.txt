@@ -1,0 +1,3 @@
+/home/ubuntu/litingshuai/TransMVSNet-after/fusibile/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/litingshuai/TransMVSNet-after/fusibile/CMakeFiles/edit_cache.dir
+/home/ubuntu/litingshuai/TransMVSNet-after/fusibile/CMakeFiles/fusibile.dir

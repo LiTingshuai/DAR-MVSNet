@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubuntu/litingshuai/TransMVSNet-after/fusibile",
+  "command": "/usr/bin/c++  -I/home/ubuntu/litingshuai/TransMVSNet-after/fusibile/. -I/usr/local/cuda/include -isystem /usr/local/include/opencv4  -fopenmp   -std=c++11 -Wall -Wextra -pedantic -Wno-unused-function -o CMakeFiles/fusibile.dir/main.cpp.o -c /home/ubuntu/litingshuai/TransMVSNet-after/fusibile/main.cpp",
+  "file": "/home/ubuntu/litingshuai/TransMVSNet-after/fusibile/main.cpp"
+}
+]
