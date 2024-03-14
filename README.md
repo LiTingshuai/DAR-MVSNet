@@ -66,7 +66,7 @@ tankandtemples
 We will open source the relevant code and operating procedures after the paper is accepted.
 
 ## Testing
-You can use your own model to test according to the following procedure or use our [pre trained model](https://drive.google.com/drive/folders/12dTNW3FuNclKXP7Xlq5nvqneDtdewp9m?usp=sharing) for testing.
+You can use your own model to test according to the following procedure or use our [pre-trained model](https://drive.google.com/drive/folders/12dTNW3FuNclKXP7Xlq5nvqneDtdewp9m?usp=sharing) for testing.
 
 ###  Testing on DTU
 
@@ -116,7 +116,7 @@ We also upload our final point cloud results to [here](https://drive.google.com/
 |-----------|------------|--------------|
 | 0.351     | 0.255      | 0.303        |
 
-In addition, the files we obtained during the Matlab evaluation can be downloaded [here](https://drive.google.com/drive/folders/1r3rMIZNbTLrdWI-bAgJkCO570GS79cQj?usp=sharing)
+In addition, the files we obtained during the Matlab evaluation can be downloaded [here](https://drive.google.com/drive/folders/1r3rMIZNbTLrdWI-bAgJkCO570GS79cQj?usp=sharing).
 
 
 ###  Testing on Tanks and Temples
