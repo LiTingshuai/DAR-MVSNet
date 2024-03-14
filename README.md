@@ -6,11 +6,11 @@ To use DAR-MVSNet, clone this repo:
 
 ```
 git clone https://github.com/LiTingshuai/DAR-MVSNet.git
-cd TransMVSNet
+cd DAR-MVSNet
 ```
 Creating an environment using anaconda:
 ```
-conda create -n transmvsnet python=3.7
+conda create -n darmvsnet python=3.7
 conda activate darmvsnet
 pip install -r requirements.txt
 ```
