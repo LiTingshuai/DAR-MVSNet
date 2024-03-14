@@ -65,7 +65,7 @@ tankandtemples
 ## Training 
 We will open source the relevant code and operating procedures after the paper is accepted.
 
-##Testing
+## Testing
 You can use your own model to test according to the following procedure or use our [pre trained model](https://drive.google.com/drive/folders/12dTNW3FuNclKXP7Xlq5nvqneDtdewp9m?usp=sharing) for testing.
 
 ###  Testing on DTU
