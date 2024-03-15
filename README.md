@@ -63,8 +63,31 @@ tankandtemples
         └── Train
 ```
 ## Training 
-We will open source the relevant code and operating procedures after the paper is accepted.
+###Training on DTU
+Set the configuration in `scripts/train.sh`:
 
+*Set `MVS_TRAINING` as the path of DTU training set.
+*Set `LOG_DIR` to save the checkpoints.
+*Change `NGPUS` to suit your device.
+*We use `torch.distributed.launch` by default.
+To train your own model, just run:
+```
+bash scripts/train.sh
+```
+You can conveniently modify more hyper-parameters in `scripts/train.sh` according to the argparser in `train.py`, such as `summary_freq`, `save_freq`, and so on.
+
+###Finetune on BlendedMVS
+For a fair comparison with other SOTA methods on Tanks and Temples benchmark, we finetune our model on BlendedMVS dataset after training on DTU dataset.
+
+Set the configuration in `scripts/train_bld_fintune.sh`:
+
+*Set `MVS_TRAINING` as the path of BlendedMVS dataset.
+*Set `LOG_DIR` to save the checkpoints and training log.
+*Set `CKPT` as path of the loaded `.ckpt` which is trained on DTU dataset.
+To finetune your own model, just run:
+```
+bash scripts/train_bld_fintune.sh
+```
 ## Testing
 You can use your own model to test according to the following procedure or use our [pre-trained model](https://drive.google.com/drive/folders/12dTNW3FuNclKXP7Xlq5nvqneDtdewp9m?usp=sharing) for testing.
 
@@ -135,3 +158,5 @@ bash scripts/test_tnt.sh
 
 For quantitative evaluation, you can upload your point clouds to [Tanks and Temples benchmark](https://www.tanksandtemples.org/).
 
+##Acknowledgments
+We borrow some code from [CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet),  [AA-RMVSNet](https://github.com/QT-Zhu/AA-RMVSNet) and [TransMVSNet](https://github.com/megvii-research/TransMVSNet?tab=readme-ov-file). We thank the authors for releasing the source code.
