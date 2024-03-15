@@ -1,5 +1,8 @@
 # DAR-MVSNet: Dual-attention-guided and Residual Network for Multi-View Stereo
 
+## Contact Author
+If you have any questions, please contact the author `litingshuai666@gmail.com`
+
 ## Change Log
 Mar 14, 2024: Initialize repo
 ## Installation
