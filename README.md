@@ -63,13 +63,13 @@ tankandtemples
         └── Train
 ```
 ## Training 
-###Training on DTU
+### Training on DTU
 Set the configuration in `scripts/train.sh`:
 
-*Set `MVS_TRAINING` as the path of DTU training set.
-*Set `LOG_DIR` to save the checkpoints.
-*Change `NGPUS` to suit your device.
-*We use `torch.distributed.launch` by default.
+* Set `MVS_TRAINING` as the path of DTU training set.
+* Set `LOG_DIR` to save the checkpoints.
+* Change `NGPUS` to suit your device.
+* We use `torch.distributed.launch` by default.
 To train your own model, just run:
 ```
 bash scripts/train.sh
@@ -81,9 +81,9 @@ For a fair comparison with other SOTA methods on Tanks and Temples benchmark, we
 
 Set the configuration in `scripts/train_bld_fintune.sh`:
 
-*Set `MVS_TRAINING` as the path of BlendedMVS dataset.
-*Set `LOG_DIR` to save the checkpoints and training log.
-*Set `CKPT` as path of the loaded `.ckpt` which is trained on DTU dataset.
+* Set `MVS_TRAINING` as the path of BlendedMVS dataset.
+* Set `LOG_DIR` to save the checkpoints and training log.
+* Set `CKPT` as path of the loaded `.ckpt` which is trained on DTU dataset.
 To finetune your own model, just run:
 ```
 bash scripts/train_bld_fintune.sh
