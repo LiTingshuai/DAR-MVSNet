@@ -5,6 +5,7 @@ If you have any questions, please contact the author `litingshuai666@gmail.com`
 
 ## Change Log
 Mar 14, 2024: Initialize repo
+Mar 15, 2024: Modify code
 ## Installation
 Our code is tested with Python==3.7.12, PyTorch==1.91+cu111, CUDA==11.2 on Ubuntu-18.04 with NVIDIA A100.
 
