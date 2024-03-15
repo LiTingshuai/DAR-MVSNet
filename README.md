@@ -117,7 +117,7 @@ Run:
 ```
 bash scripts/test_dtu.sh
 ```
-**Note:** You can use the `gipuma` fusion method or `normal` fusion method to fuse the point clouds. **In our experiments, we use the `gipuma` fusion method by default**. `Normal` fusion may lead to reduced results
+**Note:** You can use the `gipuma` fusion method or `normal` fusion method to fuse the point clouds. **In our experiments, we use the `gipuma` fusion method by default**. `Normal` fusion may lead to reduced results.
 
 <!-- The simple instruction for installing and compiling `gipuma` can be found [here](https://github.com/YoYo000/MVSNet#post-processing).  The installed gipuma is a modified version from [Yao Yao](https://github.com/YoYo000/fusibile).-->
 To install the `gipuma`, clone the modified version from [Yao Yao](https://github.com/YoYo000/fusibile).
